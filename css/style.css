@@ -1,0 +1,40 @@
+.carousel-inner .carousel-item img{
+    height: 95vh;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 100%;
+    left: 0;
+}
+.text-justify{
+    text-align: justify;
+}
+
+section#about iframe#video{
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+#service{
+    background-image: url("../img/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.icon-wa {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 65px;
+    height: 65px;
+    font-size: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    color: green;
+    z-index: 999999;
+
+}
